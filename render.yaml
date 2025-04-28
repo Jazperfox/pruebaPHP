@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mi-backend-php
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
